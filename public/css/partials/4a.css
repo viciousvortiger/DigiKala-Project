@@ -1,0 +1,20 @@
+.foura {
+  width: 100%;
+  height: auto;
+  margin-bottom: 45px;
+  .foura__center {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 636px);
+    gap: 16px;
+    a {
+      img {
+        width: 636px;
+        border-radius: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.vizhe_digiplus {
+  width: 100%;
+  height: 110px;
+  margin-bottom: 30px;
+  .vizhe_digiplus__center {
+    height: inherit;
+    width: 87.5%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    padding: 0px 30px;
+    background-image: url(../../images/vizhe\ digiplus\ images/earlyAccessPatternPlus.svg);
+    background-position-x: 100%, 0%;
+    background-position-y: 50%, 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+    background-clip: border-box, border-box;
+    justify-content: space-between;
+    background: rgb(240, 239, 240);
+    background: linear-gradient(
+      90deg,
+      rgba(240, 239, 240, 1) 0%,
+      rgba(233, 225, 233, 1) 34%
+    );
+    border-radius: 16px;
+    .texts {
+      display: flex;
+      flex-flow: column wrap;
+      height: inherit;
+      padding-top: 20px;
+      align-items: flex-start;
+      row-gap: 10px;
+      .title {
+        display: flex;
+        flex-flow: row;
+        column-gap: 10px;
+        svg {
+          fill: rgb(177, 43, 164) !important;
+        }
+        span {
+          color: rgb(177, 43, 164);
+          font-family: var(--IranYekan);
+          font-size: 16px;
+        }
+      }
+      .time {
+        display: flex;
+        flex-flow: row;
+        column-gap: 10px;
+        align-items: center;
+        .time__box {
+          width: 40px;
+          height: 40.5px;
+          background-color: white;
+          border-radius: 8px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: center;
+          row-gap: 0px;
+          span {
+            color: rgb(148, 27, 128);
+          }
+          .num {
+            font-size: 15px;
+            font-family: var(--Homa);
+          }
+          .num__sub {
+            font-size: 7px;
+            font-family: var(--IranYekan);
+          }
+        }
+        .detail {
+          font-size: 12px;
+          color: rgb(148, 27, 128);
+          font-family: var(--IranYekan);
+        }
+        svg {
+          width: 12px !important;
+          height: 12px !important ;
+          fill: rgb(148, 27, 128) !important;
+        }
+      }
+    }
+  }
+}

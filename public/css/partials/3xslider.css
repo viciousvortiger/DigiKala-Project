@@ -1,0 +1,99 @@
+.threex__slider {
+  width: inherit;
+  height: 425px;
+  .threex__slider__center {
+    height: inherit;
+    width: 70.5%;
+    margin: 0 auto;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 16px;
+    .threex__title {
+      height: 90px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      column-gap: 15px;
+      svg {
+        fill: rgb(249, 168, 37) !important;
+      }
+      h3 {
+        font-family: var(--IranYekan);
+        color: rgb(12, 12, 12);
+        font-size: 21px;
+        font-weight: 500;
+      }
+    }
+    .threex__slider__section {
+      width: 100%;
+      padding: 0px 8px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .threex__slide {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          row-gap: 30px;
+          :nth-of-type(3n) {
+            border: none;
+          }
+          a {
+            width: fit-content;
+            height: 86px;
+            text-decoration: none;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            border-bottom: 1px solid rgb(240, 240, 241);
+
+            img {
+              width: 86px;
+              height: 86px;
+            }
+            .threex__counter {
+              display: inline-block;
+              padding-bottom: 8px;
+              color: rgb(25, 191, 211);
+              font-family: var(--Homa);
+              font-size: 26px;
+              font-weight: 800;
+              margin-left: 12px;
+              margin-right: 12px;
+              text-align: center;
+            }
+            span {
+              font-size: 12px;
+              font-family: var(--IranYekan);
+              color: rgb(63, 64, 100);
+              display: inline-block;
+              text-align: right;
+            }
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.super3x {
+  width: 65% !important;
+}

@@ -1,0 +1,83 @@
+.sigin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .signin__center {
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 32px;
+    display: flex;
+    flex-flow: column wrap;
+    .logo {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 30px;
+      svg {
+        width: 150px !important;
+        height: 40px !important;
+        transition: 300ms;
+        &:hover {
+          filter: brightness(80%);
+        }
+      }
+    }
+    .title {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 35px;
+      h1 {
+        color: rgb(12, 12, 12);
+        font-family: var(--IranYekan);
+        font-size: 19px;
+        font-weight: 700;
+      }
+    }
+    p {
+      font-family: var(--IranYekan);
+      color: rgb(63, 64, 100);
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    input {
+      width: 334px;
+      height: 48px;
+      border: 1px solid rgb(0, 142, 178);
+      border-radius: 8px;
+      margin-bottom: 32px;
+      outline: none;
+      caret-color: rgb(25, 191, 211);
+      padding-right: 20px;
+    }
+    button {
+      width: 334px;
+      height: 48px;
+      background-color: rgb(239, 64, 86);
+      border-radius: 8px;
+      color: white;
+      font-family: var(--IranYekan);
+      font-size: 14px;
+      outline: none;
+      border: none;
+      margin-bottom: 16px;
+      cursor: pointer;
+      transition: 300ms;
+      &:hover{
+        filter: brightness(84%);
+      }
+    }
+    span {
+      font-size: 11px;
+      font-family: var(--IranYekan);
+      text-decoration: none;
+      a {
+        text-decoration: none;
+        color: rgb(0, 142, 178);
+      }
+    }
+  }
+}

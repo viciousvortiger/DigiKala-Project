@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url(../../fonts/Persian-IranYekan/IRANYekanWeb.eot);
+  src: url(../../fonts/Persian-IranYekan/IRANYekanWeb.woff);
+  src: url(../../fonts/Persian-IranYekan/IRANYekanWeb.woff2);
+  src: url(../../fonts/Persian-IranYekan/IRANYekanWeb.ttf);
+}
+@font-face {
+  font-family: Homa;
+  src: url(../../fonts/Persian-Homa/BHoma.eot);
+  src: url(../../fonts/Persian-Homa/BHoma.woff);
+  src: url(../../fonts/Persian-Homa/BHoma.woff2);
+  src: url(../../fonts/Persian-Homa/BHoma.ttf);
+}
+:root {
+  --IranYekan: IranYekan;
+  --Homa: Homa;
+}
+html::-webkit-scrollbar {
+  width: 8px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  height: 165px;
+}
+.wrapper {
+  width: 100%;
+}
+/* <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div> */
+
+/* <div class="details__content__title">
+                          <div class="pipe__details"></div>
+                          <h3>لوازم جانبی لپتاپ</h3>
+                          <span class="greater"> &gt;</span>
+                        </div> */
+
+/* <span class="details__content__subs">گوشی آیفون</span> */
+
+/* <svg
+                      style="
+                        width: 18px;
+                        height: 18px;
+                        fill: var(--color-icon-secondary);
+                      "
+                    >
+                      <path
+                        d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                      ></path>
+                    </svg> */
+
+/* <svg
+                            class="black"
+                            style="
+                              width: 18px;
+                              height: 18px;
+                              fill: var(--color-icon-secondary);
+                            "
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </svg> */
+
+/* <svg
+                        class="blue"
+                        style="
+                          width: 18px;
+                          height: 18px;
+                          fill: var(--color-icon-secondary);
+                        "
+                      >
+                        <path
+                          d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                        ></path>
+                      </svg> */

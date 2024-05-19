@@ -1,0 +1,83 @@
+.fourx {
+  width: 100%;
+  height: 420px;
+  .fourx__center {
+    height: inherit;
+    width: 70.5%;
+    margin: 0 auto;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    .fourx__column {
+      height: inherit;
+      width: 1px;
+      background-color: rgb(223, 222, 222);
+    }
+    .fourx__content {
+      width: 333px;
+      height: inherit;
+      padding: 8px 20px 8px 20px;
+      .fourx__title {
+        font-family: var(--IranYekan);
+        font-size: 16px;
+        font-weight: bold;
+        color: #2b2b2b;
+        margin-bottom: 10px;
+      }
+      .fourx__subtitle {
+        font-size: 11px;
+        font-family: var(--IranYekan);
+        color: rgb(129, 133, 139);
+        margin-bottom: 10px;
+      }
+      .fourx__img {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1px;
+        background-color: rgb(240, 240, 241);
+        margin-bottom: 0px;
+        a {
+          width: 150px;
+          height: 150px;
+          background-color: white;
+          padding: 8px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .fourx__moshahede {
+        font-size: 12px;
+        font-family: var(--IranYekan);
+        color: rgb(25, 191, 211);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        a {
+          text-decoration: none;
+          color: rgb(25, 191, 211);
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          position: relative;
+          .greater {
+            svg{
+              fill: rgb(25, 191, 211) !important;
+              width: 20px !important;
+              height: 20px !important;
+              position: absolute;
+              left: -21px;
+              top: -4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

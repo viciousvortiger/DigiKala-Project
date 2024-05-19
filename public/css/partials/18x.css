@@ -1,0 +1,100 @@
+.eighteenx {
+  width: inherit;
+  margin-bottom: 15px;
+  .eighteenx__center {
+    width: 70.5%;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid lightgray;
+
+    .eighteenx__title {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        margin-right: 8px;
+        font-size: 21px;
+        font-family: var(--IranYekan);
+        font-weight: 500;
+      }
+      svg {
+        fill: rgb(239, 64, 86) !important;
+      }
+    }
+    .eighteenx__row {
+      width: 99.9%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      column-gap: 0px;
+      border-bottom: 1px solid rgb(240, 240, 241);
+      :nth-of-type(6n){
+        border: none !important;
+      }
+      .eighteenx__content {
+        height: 260px;
+        width: 224px;
+        border-left: 1px solid rgb(240, 240, 241);
+        .amazing__products {
+          width: 100%;
+          height: 100%;
+          padding: 8px 12px;
+          text-decoration: none;
+          font-family: var(--Homa);
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          padding-top: 15px;
+          img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+          }
+          .new__price {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            svg{
+              width: 16px !important;
+              height: 16px !important;
+              fill: rgb(63, 64, 100) !important;
+              position: relative;
+              bottom: -3px;
+            }
+            .sale {
+              width: 34px;
+              height: 20px;
+              background-color: crimson;
+              border-radius: 16px;
+              font-size: 13px;
+              color: whitesmoke;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-bottom: 2.5px;
+              margin-left: 30px;
+            }
+            .new__price__num {
+              font-size: 17px;
+              color: rgb(63, 64, 100);
+            }
+          }
+          .old__price {
+            width: 100%;
+            color: rgb(192, 194, 197);
+            font-size: 12px;
+            display: flex;
+            justify-content: flex-end;
+            font-family: var(--Homa);
+            text-decoration-line: line-through;
+            padding-left: 37px;
+          }
+        }
+      }
+    }
+  }
+}

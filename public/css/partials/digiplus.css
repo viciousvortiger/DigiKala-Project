@@ -1,0 +1,127 @@
+.digiplus {
+  width: inherit;
+  height: 390px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  .digiplus__center {
+    width: 70.5%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: rgb(148, 27, 128);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-flow: row wrap;
+
+    .digiplus__ozviat {
+      width: 34%;
+      height: 100%;
+      padding-top: 24px;
+      display: flex;
+      flex-flow: column wrap;
+      padding-right: 24px;
+      background-image: url(../../images/digiplus\ images/image1.png);
+      background-repeat: no-repeat;
+      background-size: 372px 279px;
+      background-position-x: 0px;
+      background-position-y: 100%;
+      .digiplus__logo__sub {
+        margin: 7px 0px;
+        span {
+          font-family: var(--IranYekan);
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+        }
+      }
+      button {
+        width: 100px;
+        height: 40px;
+        border-radius: 7px;
+        background-color: rgb(148, 27, 128);
+        color: white;
+        border: 1px solid white;
+        font-family: var(--IranYekan);
+        font-size: 12px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        cursor: pointer;
+        svg {
+          fill: white !important;
+        }
+      }
+    }
+    .ersal__fori {
+      width: 66%;
+      height: 100%;
+      background-color: white;
+      padding: 0px 16px;
+      border-radius: 16px;
+      display: flex;
+      flex-flow: column wrap;
+      .ersal__fori__title {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        flex-flow: row wrap;
+        .ersal__fori__title__svg {
+          width: 80%;
+          height: inherit;
+          display: flex;
+          align-items: center;
+          svg {
+            fill: rgb(177, 43, 164) !important;
+          }
+          h4 {
+            margin-right: 8px;
+            font-family: var(--IranYekan);
+            font-size: 16px;
+            color: rgb(12, 12, 12);
+          }
+        }
+        .ersal__fori__moshahede {
+          width: 20%;
+          height: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          a {
+            text-decoration: none;
+            span {
+              font-size: 12px;
+              color: rgb(177, 43, 164);
+              font-family: var(--IranYekan);
+              .greater {
+                fill: rgb(177, 43, 164) !important;
+                position: relative;
+                width: 20px !important;
+                height: 20px !important;
+                top: 3px;
+                left: 2px;
+              }
+            }
+          }
+        }
+      }
+      .ersal__fori__img__row,
+      .ersal__fori__img__row__second {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 27.2px;
+        a {
+          img {
+            width: 116px;
+            height: 116px;
+          }
+        }
+      }
+      .ersal__fori__img__row__second {
+        margin-top: 22px;
+      }
+    }
+  }
+}

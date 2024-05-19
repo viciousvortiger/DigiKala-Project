@@ -1,0 +1,191 @@
+.montakhab {
+  width: 100%;
+  height: 440px;
+  margin-bottom: 25px;
+  .montakhab__center {
+    width: 87.5%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: #ef3b50;
+    border-radius: 8px;
+    padding: 28px 0px;
+    padding-left: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      .first {
+        width: 100%;
+        height: 100%;
+        background-color: #ef3b50;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        img {
+          width: 145px;
+          height: 145px;
+        }
+      }
+      .montakhab__content {
+        width: 100%;
+        border-radius: 8px;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        padding: 12px 8px;
+        align-items: center;
+        text-decoration: none;
+        .svg {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: flex-start;
+          margin-bottom: 8px;
+          svg {
+            width: 116px !important;
+            height: 14px !important;
+          }
+        }
+        img {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 8px;
+          object-fit: cover;
+        }
+        h3 {
+          max-width: 170px;
+          max-height: 46px;
+          overflow: hidden;
+          font-family: var(--IranYekan);
+          color: rgb(63, 64, 100);
+          text-decoration: none;
+          font-size: 14px;
+          text-align: right;
+          font-size: 12px;
+          font-weight: normal;
+          margin-bottom: 8px;
+          line-height: 26px;
+        }
+        p {
+          font-family: var(--IranYekan);
+          font-size: 11px;
+          color: rgb(98, 102, 109);
+          text-align: right;
+          display: flex;
+          width: 100%;
+          flex-flow: row;
+          column-gap: 8px;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 18px;
+          svg {
+            width: 18px !important;
+            height: 20px !important;
+            fill: blue !important;
+          }
+        }
+        .new {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 8px;
+          .sale {
+            width: 34px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(211, 47, 47);
+            border-radius: 16px;
+            padding-bottom: 2px;
+            span {
+              font-size: 12px;
+              color: white;
+              font-family: var(--Homa) !important;
+            }
+          }
+          .new__price {
+            display: flex;
+            flex-flow: row;
+            height: 21px;
+            align-items: center !important;
+            span {
+              font-size: 16px;
+              font-weight: 500;
+              font-family: var(--Homa);
+              color: rgb(63, 64, 100);
+              display: flex;
+              position: relative;
+            }
+            svg {
+              width: 16px !important;
+              height: 16px !important;
+              fill: rgb(63, 64, 100) !important;
+              position: relative;
+              bottom: -2.5px;
+            }
+          }
+        }
+        .old {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          padding-left: 20px;
+          margin-bottom: 5px;
+          span {
+            font-size: 12px;
+            font-family: var(--Homa);
+            color: rgb(192, 194, 197);
+            text-decoration: line-through;
+          }
+        }
+        .line {
+          width: 100%;
+          margin: 0 auto;
+          height: 4px;
+          border-radius: 9999px;
+          background-color: rgb(240, 240, 241);
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 3px;
+          .line__red {
+            background-color: #ef3b50;
+            width: 30%;
+            height: inherit;
+            border-radius: 9999px;
+          }
+        }
+        .time {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          span {
+            color: #ef3b50;
+            font-family: var(--Homa);
+            font-size: 12px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

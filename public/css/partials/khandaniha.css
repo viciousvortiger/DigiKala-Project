@@ -1,0 +1,94 @@
+.khandaniha {
+  width: inherit;
+  height: 340px;
+  margin-top: 36px;
+  margin-bottom: 50px;
+  .khandaniha__title {
+    width: 70.5%;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 20px;
+    margin-bottom: 7px;
+    h5 {
+      font-family: var(--IranYekan);
+      font-size: 16px;
+      color: rgb(12, 12, 12);
+    }
+    a {
+      text-decoration: none;
+      font-size: 12px;
+      color: rgb(25, 191, 211);
+      font-family: var(--IranYekan);
+
+      span {
+        svg {
+          fill: rgb(25, 191, 211) !important;
+          width: 20px !important;
+          height: 20px !important;
+          position: relative;
+          top: 4px;
+          left: 2px;
+        }
+      }
+    }
+  }
+  .khandaniha__section {
+    width: 70.5%;
+    height: 285px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    column-gap: 12px;
+    .khandaniha__section__content {
+      display: flex;
+      flex-flow: column wrap;
+      row-gap: 10px;
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      text-decoration: none;
+      position: relative;
+      transition: 400ms;
+      overflow: hidden;
+      img {
+        width: 323px;
+        height: 201px;
+        border-radius: 8px 8px 0px 0px;
+        object-fit: cover;
+        transition: 400ms;
+      }
+      p {
+        font-size: 12px;
+        font-family: var(--IranYekan);
+        color: rgb(12, 12, 12);
+        text-align: right;
+        max-width: 323px;
+        padding-right: 20px;
+        line-height: 26px;
+      }
+      .preview {
+        position: absolute;
+        display: flex;
+        background-color: #3b3b3b;
+        width: 325px;
+        height: 285px;
+        bottom: 100%;
+        opacity: 0.3;
+        transition: 400ms;
+      }
+    }
+  }
+}
+.superkh {
+  width: 65% !important;
+  .khandaniha__section__content {
+    flex-grow: 1;
+    p {
+      padding-right: 10px !important;
+      max-width: 300px !important;
+    }
+  }
+}

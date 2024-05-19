@@ -1,0 +1,68 @@
+.digiclub {
+  width: inherit;
+  height: 90px;
+  .digiclub__center {
+    width: 70.5%;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    padding: 12px 16px;
+    display: flex;
+    flex-flow: row wrap;
+    .digiclub__logo {
+      width: 38%;
+      height: calc(90px - 24px);
+      display: flex;
+      align-items: center;
+      padding-right: 20px;
+      svg {
+        width: 119px !important;
+        height: 33px !important;
+      }
+    }
+    .digiclub__links {
+      width: 62%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 5px;
+      a {
+        display: flex;
+        height: 64px;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        text-decoration: none;
+        font-family: var(--IranYekan);
+        font-size: 12px;
+        color: rgb(12, 12, 12);
+        font-weight: 500;
+        svg {
+          fill: rgb(0, 191, 214) !important;
+          margin-right: 16px;
+          width: 25px !important;
+          height: 25px !important;
+        }
+        img {
+          width: 168px;
+          height: 60px;
+          object-fit: cover;
+        }
+        span {
+          display: inline-block;
+          margin-right: 5px;
+        }
+      }
+      .first__digiclub__link {
+        border-radius: 0px 8px 8px 0px;
+      }
+      .third__digiclub__link {
+        border-radius: 8px 0px 0px 8px;
+        padding-left: 3px;
+      }
+    }
+  }
+}

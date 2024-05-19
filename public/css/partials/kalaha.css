@@ -1,0 +1,47 @@
+.kalaha {
+  width: 100%;
+  height: 85px;
+  margin-top: 1px;
+  .kalaha__Center {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: inherit;
+    width: 65%;
+    column-gap: 28px;
+    .title {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      column-gap: 10px;
+      svg {
+        fill: rgb(107, 185, 39) !important;
+      }
+      h2 {
+        font-size: 21px;
+        font-family: var(--IranYekan);
+        font-weight: 500;
+      }
+    }
+    .jet {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      column-gap: 5px;
+      span {
+        font-size: 12px;
+        color: rgb(255, 98, 0);
+        font-family: var(--IranYekan);
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+    .a__tags {
+      text-decoration: none;
+      font-family: var(--IranYekan);
+      font-size: 12px;
+      color: rgb(98, 102, 109);
+    }
+  }
+}

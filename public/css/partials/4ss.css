@@ -1,0 +1,22 @@
+.fss {
+  width: 100%;
+  height: auto;
+  margin: 16px auto;
+  .fss__center {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    column-gap: 16px;
+    justify-content: center;
+    a {
+      img {
+        border-radius: 16px;
+        width: 310px;
+        height: 232.5px;
+        object-fit: cover;
+      }
+    }
+  }
+}

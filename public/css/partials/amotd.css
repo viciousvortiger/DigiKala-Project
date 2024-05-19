@@ -1,0 +1,231 @@
+.aotd {
+  width: 100%;
+  height: 345px;
+  margin-bottom: 15px;
+  .aotd__center {
+    height: inherit;
+    margin: 0 auto;
+    width: 87.5%;
+    background-color: #e1113b;
+    background-image: url(../../images/aotd\ images/deal-pattern.svg);
+    background-repeat: repeat-x, repeat-x;
+    border-radius: 8px;
+    padding: 20px;
+    .aotd__title {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      column-gap: 7px;
+      svg {
+        width: 40px !important;
+        height: 40px !important;
+        fill: white !important;
+        position: relative;
+        bottom: 2px;
+      }
+      span {
+        font-family: var(--IranYekan);
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+    .aotd__slider {
+      width: 100%;
+      height: calc(345px - 110px);
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        .aotd__slider__content {
+          width: 100%;
+          height: 100%;
+          padding: 8px 16px;
+          cursor: pointer;
+          .aotd__slider__content__title {
+            width: 100%;
+            height: 14px;
+            margin-bottom: 4px;
+            display: flex;
+          }
+          .aotd__slider__content__under {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            img {
+              width: 200px;
+              height: 200px;
+            }
+            .aotd__content__details {
+              display: flex;
+              width: calc(100% - 200px);
+              height: 100%;
+              flex-flow: column wrap;
+              padding-top: 34px;
+              h3 {
+                font-family: var(--IranYekan);
+                font-size: 12px;
+                color: rgb(63, 64, 100);
+                text-align: right;
+                margin-bottom: 45px;
+              }
+              .color__rate {
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+                .color {
+                  display: flex;
+                  flex-flow: row;
+                  justify-content: center;
+                  align-items: center;
+                  .round {
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    background-color: black;
+                  }
+                  span {
+                    font-family: var(--IranYekan);
+                    margin-right: 8px;
+                    color: rgb(66, 71, 80);
+                    font-size: 10px;
+                  }
+                }
+                .rate {
+                  display: flex;
+                  flex-flow: row;
+                  align-items: center;
+                  column-gap: 10px;
+                  span {
+                    font-family: var(--IranYekan);
+                    font-size: 12px;
+                    color: rgb(63, 64, 100);
+                    font-weight: 600;
+                  }
+                  svg {
+                    width: 16px !important;
+                    height: 16px !important;
+                    fill: rgb(249, 188, 0) !important;
+                  }
+                }
+              }
+              .new__price__sale {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 15px;
+                .sale {
+                  width: 34px;
+                  height: 20px;
+                  background-color: rgb(211, 47, 47);
+                  border-radius: 16px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding-bottom: 2px;
+                  span {
+                    font-size: 12px;
+                    font-family: var(--Homa);
+                    color: white;
+                  }
+                }
+                .new {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  span {
+                    font-family: var(--Homa);
+                    font-size: 16px;
+                    color: rgb(63, 64, 100);
+                    font-weight: 500;
+                    position: relative;
+                    bottom: 1px;
+                  }
+                  svg{
+                    position: relative;
+                    width: 16px !important;
+                    height: 16px !important;
+                    fill: rgb(63, 64, 100) !important;
+                    bottom: -2.5px;
+                  }
+                }
+              }
+              .old__price {
+                display: flex;
+                width: 100%;
+                justify-content: flex-end;
+                align-items: center;
+                padding-left: 20px;
+                span {
+                  font-size: 12px;
+                  text-decoration: line-through;
+                  color: rgb(192, 194, 197);
+                  font-family: var(--Homa);
+                }
+              }
+            }
+          }
+        }
+        .locked {
+          width: 100%;
+          height: 100%;
+          background-image: url(../../images/aotd\ images/image3.png);
+          background-repeat: no-repeat;
+          background-position: 100%;
+          background-color: #565656;
+          background-blend-mode: multiply;
+          position: relative;
+          border-radius: 8px;
+          cursor: pointer;
+          .locked__icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ef4056;
+            position: absolute;
+            left: calc(50% - 80px / 2);
+            top: calc(50% - 60px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg {
+              width: 48px !important;
+              height: 48px !important;
+              fill: white !important;
+            }
+          }
+          .locked__text {
+            position: absolute;
+            display: flex;
+            width: 190px;
+            height: 20px;
+            left: calc(50% - 190px / 2);
+            bottom: 50px;
+            font-family: var(--IranYekan);
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

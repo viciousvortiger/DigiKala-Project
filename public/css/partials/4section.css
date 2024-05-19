@@ -1,0 +1,20 @@
+.four__section {
+  height: 240px;
+  width: inherit;
+  margin: 16px auto;
+  .four__section__center {
+    height: inherit;
+    width: 70.59%;
+    margin: 16px auto;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 16px;
+    a {
+      img {
+        width: 322px;
+        height: 241px;
+        border-radius: 16px;
+      }
+    }
+  }
+}

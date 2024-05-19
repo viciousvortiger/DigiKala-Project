@@ -1,0 +1,106 @@
+.one__section {
+  width: inherit;
+  height: 110px;
+  margin: 15px auto;
+  .one__section__center {
+    display: flex;
+    justify-content: space-between;
+    width: 70.5%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: #edefed;
+    background-image: url(../../images/one\ section\ images/freshPattern.svg);
+    border-radius: 16px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    .amazing__supermarket {
+      width: 50%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding-right: 30px;
+      column-gap: 15px;
+      text-decoration: none;
+      img {
+        width: 66px;
+        height: 62px;
+      }
+      span {
+        display: flex;
+        font-size: 14px;
+        font-family: var(--IranYekan);
+        background-color: #39ae00;
+        width: 109px;
+        height: 28px;
+        color: white;
+        border-radius: 9999px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .items {
+      width: 50%;
+      height: 110px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 8px;
+      a {
+        width: 74px;
+        height: 74px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        img {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+        }
+        span {
+          font-family: var(--Homa);
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 12px;
+          background-color: rgb(211, 47, 47);
+          border-radius: 16px;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 34px;
+          height: 20px;
+        }
+      }
+      .bish__az {
+        width: 144px;
+        height: 50px;
+        border-radius: 9999px;
+        text-decoration: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+
+        span {
+          all: unset;
+          color: rgb(57, 174, 0);
+          font-family: var(--IranYekan);
+          font-size: 12px;
+          font-weight: 700;
+        }
+        svg {
+          fill: rgb(57, 174, 0) !important;
+          position: relative;
+          bottom: 2px;
+        }
+      }
+    }
+  }
+}

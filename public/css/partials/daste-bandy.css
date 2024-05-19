@@ -1,0 +1,109 @@
+.daste__bandy__title {
+  width: inherit;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  h3 {
+    font-size: 21px;
+    font-family: var(--IranYekan);
+    color: #2b2b2b;
+    font-weight: 500;
+  }
+}
+.daste__bandy__slider {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 66px;
+  .daste__bandy__slider__center {
+    height: inherit;
+    width: 69%;
+    margin: 0 auto;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      .swiper-button-next,
+      .swiper-rtl .swiper-button-prev {
+        height: 90px !important;
+        width: 49px !important;
+        border-radius: 0px 10px 10px 0px !important;
+        border: unset !important;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+          rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+        position: absolute;
+        left: 0px;
+      }
+      .swiper-button-prev,
+      .swiper-rtl .swiper-button-next {
+        height: 90px !important;
+        width: 49px !important;
+        border-radius: 10px 0px 0px 10px !important;
+        box-shadow: 0px 0px 1px #b4b3b3 !important;
+        border: unset !important;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+          rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px !important;
+          position: absolute;
+          right: 0px;
+      }
+      .swiper-button-next:after,
+      .swiper-rtl .swiper-button-prev:after {
+        font-size: 18px !important;
+        font-weight: bolder !important;
+        color: rgb(66, 71, 80) !important;
+      }
+      .swiper-button-prev:after,
+      .swiper-rtl .swiper-button-next:after {
+        font-size: 18px !important;
+        font-weight: bolder !important;
+        color: rgb(66, 71, 80) !important;
+      }
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .daste__bandy__content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        row-gap: 35px;
+        .daste__bandy__content__section {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column wrap;
+          row-gap: 15px;
+          text-decoration: none;
+          img {
+            width: 100px;
+            height: 100px;
+          }
+          span {
+            font-size: 12px;
+            color: #2b2b2b;
+            font-family: var(--IranYekan);
+            font-weight: 700;
+          }
+        }
+        .daste__bandy__blank {
+          visibility: hidden;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.portekrar {
+  width: 100%;
+  margin-bottom: 16px;
+  .portekrar__center {
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 0 12px;
+    border-radius: 16px;
+    .title {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 85px;
+      h3 {
+        font-size: 21px;
+        font-family: var(--IranYekan);
+        font-weight: 500;
+      }
+    }
+    .portekrar__content {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      justify-content: center;
+      background-color: rgb(240, 240, 241);
+      gap: 1px;
+      position: relative;
+      a {
+        display: flex;
+        padding: 12px 8px;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-decoration: none;
+        align-items: center;
+        background-color: white;
+        position: relative;
+        img {
+          width: 150px;
+          height: 150px;
+        }
+        .price {
+          align-self: flex-end;
+          span {
+            font-size: 16px;
+            font-family: var(--Homa);
+            color: rgb(63, 64, 100);
+          }
+          svg{
+            width: 16px !important;
+            height: 16px !important;
+            fill:rgb(63, 64, 100) !important ;
+            position: relative;
+            bottom: -8px;
+          }
+        }
+        .circle__Plus {
+          position: absolute;
+          border-radius: 50%;
+          width: 26px;
+          height: 26px;
+          background-color: white;
+          border: 1px solid #ef3c52;
+          fill: #ef3c52 !important;
+          right: 15px;
+          bottom: 45px;
+        }
+      }
+      .sefid {
+        position: absolute;
+        width: calc(202.85px * 3);
+        height: 203px;
+        left: 0px;
+        bottom: 0px;
+        background-color: white;
+      }
+    }
+  }
+}
